@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aboreto</item>
+        <item>@font/actor</item>
+        <item>@font/adlam_display</item>
+        <item>@font/allerta</item>
+        <item>@font/almarai_light</item>
+        <item>@font/andika</item>
+        <item>@font/aoboshi_one</item>
+        <item>@font/dotgothic16</item>
+        <item>@font/jua</item>
+        <item>@font/tilt_prism</item>
+    </array>
+</resources>

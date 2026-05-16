@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/jua"
+        android:text="Eko Activity Guide"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="How is the weather?"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <Spinner
+        android:id="@+id/spinnerWeather"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/jua"
+        android:popupBackground="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="How is your mood?"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <Spinner
+        android:id="@+id/spinnerMood"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/jua"
+        android:popupBackground="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#F6BF13"
+        android:fontFamily="@font/jua"
+        android:text="Calculate Activity"
+        android:textColor="#000000"
+        android:textColorLink="#CA0D0D"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/jua"
+        android:gravity="center"
+        android:text="The result will appear here."
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#55000000"
+        android:text="How it works?"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#040303" />
+
+</LinearLayout>
